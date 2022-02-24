@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    />
+    <!-- FontAwesome -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+
+    <title>EduSmart-Sınaq İmtahanı</title>
+  </head>
+
+  <body>
+    <!-- Header Start -->
+    <header>
+      <div class="container">
+        <div class="header-top">
+          <div class="header-logo">
+            <a href="index.html">
+              <img src="img/logo.svg" alt="" />
+            </a>
+          </div>
+          <div class="nav-bar">
+            <ul>
+              <li><a href="about.html">İmtahanlarım</a></li>
+              <li><a href="articles.html">Nəticələrim</a></li>
+            </ul>
+          </div>
+          <div class="header-btns">
+            <div class="dropdown">
+              <button
+                class="dropdown-btn btn btn-secondary dropdown-toggle"
+                type="button"
+                id="dropdownMenuButton"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                <img src="img/profile.svg" alt="" />
+                <p>Əliyeva Nəzrin</p>
+                <img src="img/Vector 1.svg" alt="" />
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Hesabım</a>
+                <a class="dropdown-item" href="#">Çıxış et</a>
+              </div>
+            </div>
+          </div>
+          <div class="mobile-menu">
+            <i class="fas fa-bars openBtn" onclick="openNav()"></i>
+            <div class="overlay-content" id="overlay">
+              <i class="fas fa-times closeBtn" onclick="closeNav()"></i>
+              <ul>
+                <li><a href="about.html">İmtahanlarım</a></li>
+                <li><a href="articles.html">Nəticələrim</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Header End -->
+    <section class="exam-section">
+      <div class="container">
+        <div class="exam-section-head">
+          <h1>İmtahan</h1>
+        </div>
+        <div class="exam-section-bottom">
+          <div class="exam-section-content">
+            <div class="exam-top">
+                <h1>11-ci Sinif Buraxılış İmtahanı</h1>
+            </div>
+            <div class="exam-middle">
+              <div class="exam-middle-items">
+                <div class="exam-middle-item">
+                  <div class="exam-middle-content">
+                    <p> <span>Bölmə:</span>Azərbaycan </p>
+                    <p> <span>Nəşriyyatçı:</span> Deirvlon </p>
+                    <p><span>Kateqoriya:</span>Deirvlon</p>
+                  </div>
+                </div>
+                <div class="exam-middle-item ">
+                  <div class="exam-middle-content item-2">
+                    <div class="exam-date">
+                      <p> <span>Tarix:</span>02/02/2022</p>
+                      <p>14:00</p>
+                    </div>
+                    <p>Qiymət: 5 ₼</p>
+                  </div>
+                </div>
+                <div class="exam-middle-item">
+                  <div class="exam-middle-content item-3">
+                    <p> Azərbaycan dili - 20 sual</p>
+                    <p>Riyaziyyat - 20 sual</p>
+                    <p>Fizika - 20 sual</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="exam-bottom-2">
+              <div class="exam-bottom-content">
+                <div class="exam-bottom-head">
+                  <h1>Mövzu</h1>
+                </div>
+                <p>
+                  Azərbaycan dili: <br> Feilin təsriflənən formaları. Feilin təsriflənməyən formaları. Köməkçi nitq hissələri. Söz birləşmələri. Mürəkkəb adlar. Sintaktik əlaqələr. Cümlənin məqsəd və intonasiyaya görə növləri. Cümlə üzvləri. Baş üzvlər. Əvvəlki mövzuların təkrarı
+                </p>
+              </div>
+            </div>
+            <div class="buy-exam">
+              <button class="buy-btn">
+                <a href="#">İmtahan al</a>  
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer start -->
+    <footer>
+      <div class="container">
+        <div class="footer-items">
+          <a href="index.html">
+            <img src="img/page-logo.png" alt="" />
+          </a>
+          <p>
+            Powered by Deirvlon Technologies <br />
+            www.deirvlon.com
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer end -->
+    <script src="js/main.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      var b = 0;
+      $(window).scroll(function () {
+        var bTop = $("#control").offset().top - window.innerHeight;
+        if (b == 0 && $(window).scrollTop() > bTop) {
+          $(".ad1").addClass("item-control1");
+          $(".ad2").addClass("control-line1");
+          $(".ad3").addClass("item-control2");
+          $(".ad4").addClass("control-line2");
+          $(".ad5").addClass("item-control3");
+          b = 1;
+        }
+      });
+      function openNav() {
+        document.querySelector(".overlay-content").style.width = "100%";
+      }
+      function closeNav() {
+        document.querySelector(".overlay-content").style.width = "0%";
+      }
+    </script>
+  </body>
+</html>

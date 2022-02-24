@@ -1,0 +1,1376 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background: rgb(234, 241, 251);
+    background: linear-gradient( 90deg, rgba(234, 241, 251, 1) 0%, rgba(248, 251, 254, 1) 35%, rgba(244, 250, 253, 1) 100%);
+}
+
+.form-select:focus {
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Header style start */
+
+header {
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+}
+.index-dropdown{
+    display: none;
+}
+.mobile-dropdown{
+    display: none;
+}
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.header-logo {
+    width: 336px;
+    height: 36px;
+}
+
+.header-logo a {
+    width: 100%;
+    height: 100%;
+}
+
+.header-logo a img {
+    width: 100%;
+    height: 100%;
+}
+
+.register-btn {
+    width: 127px;
+    height: 40px;
+    background: #1A43C3;
+    border-radius: 16px;
+    border: none;
+    font-family: TT Fors;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-right: 20px;
+}
+
+.login-btn {
+    width: 127px;
+    height: 40px;
+    border: 1px solid #1A43C3;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background-color: transparent;
+    font-family: TT Fors;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #1A43C3;
+}
+
+.header-bottom {
+    display: flex;
+    justify-content: space-between !important;
+}
+
+.header-intro {
+    padding-top: 38px;
+}
+
+.header-intro h1 {
+    font-family: TT Fors;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 63px;
+    color: #00269D;
+    margin-bottom: 17px;
+}
+
+.header-intro h1 span {
+    font-weight: 600;
+}
+
+.header-intro p {
+    font-family: TT Fors;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 38px;
+    color: #00269D;
+    margin-bottom: 29px;
+}
+
+.header-intro button {
+    width: 160px;
+    height: 50px;
+    background: #1A43C3;
+    border-radius: 16px;
+    font-family: TT Fors;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 38px;
+    color: #FFFFFF;
+    border: none;
+}
+
+.intro-img {
+    display: flex;
+    justify-content: flex-end;
+}
+/* dropdown start */
+.dropbtn {
+    background-color: transparent;
+    color: #0f0f0f;
+    padding: 7px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    min-width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .dropbtn img{
+    margin-right: 8px;
+  }
+  .dropdown i {
+    font-size: 20px;
+    color: black;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    min-width: 80px !important;
+  }
+  
+  .dropdown-content {
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 98;
+    max-height: 0;
+    border-radius: 10px;
+    min-width: 80px !important;
+    transition: max-height 0.15s ease-out;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    background-color: #f9f9f9;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content a img {
+    width: 35px;
+    height: 25px;
+    border-radius: 5px;
+  }
+  .dropdown-content a:hover {
+    background-color: #e2e2e2;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    max-height: 500px;
+    min-width: 160px;
+    transition: max-height 0.25s ease-in;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #e0e0e0;
+    transition: max-height 0.25s ease-in;
+  }
+  @media (-webkit-transition) {
+    .dropdown:hover .dropbtn {
+      background-color: #f9f9f9;
+      border-bottom: 1px solid #e0e0e0;
+      transition: max-height 0.25s ease-in;
+    }
+  }
+
+
+
+/* dropdown end */
+
+/* accordion style start */
+.mobile-accordion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.accordion-btn img{
+    margin-right: 8px;
+}
+.panel, .panel-group .panel-heading+.panel-collapse>.panel-body{
+    border: none;
+}
+.panel-group{
+    margin:0;
+}
+
+.panel{
+    border:none;
+    box-shadow:none;
+}
+
+.panel-heading{
+    padding:0;
+}
+.accordion-item{
+    border: none;
+}
+.accordion-button:not(.collapsed) {
+    color: #0c63e4;
+    background-color: transparent; 
+    box-shadow: unset;
+}
+.accordion-button:focus {
+    z-index: 3;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow:none;
+}
+/* accordion style end */
+
+/* header end */
+
+
+/* CONTROL */
+
+.control {
+    margin-top: 193px;
+    /* margin: 193px 0px 128px 0px; */
+}
+
+.control-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 128px;
+}
+
+.item-control {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.control-text {
+    height: auto;
+    margin-top: 26px;
+}
+
+.take-the-exam {
+    font-family: TT Fors;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 38px;
+    color: #62e7e3;
+}
+
+.check-result {
+    font-family: TT Fors;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 38px;
+    color: #7469fc;
+}
+
+.reach-goals {
+    font-family: TT Fors;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 38px;
+    color: #fa6323;
+}
+
+.control-line {
+    width: 100%;
+    /* margin:0 10px 120px 10px ; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.item-control img {
+    height: 170px;
+    margin-bottom: 10px;
+}
+
+.item-control h5:first-child {
+    font-weight: 600 !important;
+}
+
+.item-control h5:last-child {
+    font-weight: 400;
+}
+
+.item-control1 {
+    animation-name: slidein;
+}
+
+.item-control2 {
+    animation: slidein 2s ease 1 normal;
+}
+
+.item-control3 {
+    animation: slidein 4s ease 1 normal;
+}
+
+.control-line1 {
+    animation: slidein 1s ease 1 normal;
+}
+
+.control-line2 {
+    animation: slidein 3s ease 1 normal;
+}
+
+@keyframes slidein {
+    0% {
+        opacity: 0;
+        transform: translate(0, 0);
+    }
+    80% {
+        opacity: 0;
+        transform: translate(0, 100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes slideline {
+    0% {
+        opacity: 0;
+        transform: translate(0, 0);
+    }
+    80% {
+        opacity: 0;
+        transform: translate(0, 100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0, 0);
+    }
+}
+
+
+/* CONTROL-END */
+
+
+/* Exam section start */
+
+.exams {
+    width: 100%;
+    height: auto;
+    margin-bottom: 68px;
+}
+
+.exam-head {
+    margin-bottom: 60px;
+}
+
+.exam-head h1 {
+    font-family: TT Fors;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    text-align: center;
+    line-height: 45px;
+    color: #00269d;
+}
+
+.exam-bottom {
+    margin-bottom: 56px;
+    justify-content: space-between !important;
+}
+
+.exam-items {
+    padding-right: 0 !important;
+    margin-bottom: 30px;
+}
+
+.exam-item {
+    width: 95%;
+    height: auto;
+    background: #ffffff;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+}
+
+.exam-item-content {
+    padding: 11px;
+}
+
+.exam-item-top {
+    /* padding: 27px 33px; */
+    padding: 20px 33px;
+    width: 100%;
+    height: auto;
+    background: linear-gradient( 121.19deg, rgba(233, 240, 249, 0.6776) -35.67%, rgba(237, 245, 255, 0.4235) 74.27%, rgba(196, 196, 196, 0) 196.29%, rgba(255, 255, 255, 0.4235) 196.29%);
+    border-radius: 16px;
+}
+
+.exam-item-top h5 {
+    font-family: TT Fors;
+    font-style: normal;
+    font-weight: 600;
+    /* font-size: 26px; */
+    font-size: 24px;
+    line-height: 34px;
+    color: #00269d;
+    margin-bottom: 12px;
+}
+
+.exam-item-top p {
+    margin: 0;
+    font-family: TT Fors;
+    font-style: normal;
+    font-weight: normal;
+    /* font-size: 21px; */
+    font-size:20px;
+    line-height: 29px;
+    color: #00269d;
+}
+
+.exam-item-bottom {
+    /* padding: 10px 33px; */
+    padding: 15px 33px
+}
+
+.exam-item-bottom p {
+    font-family: TT Fors;
+    font-style: normal;
+    font-weight: normal;
+    /* font-size: 21px;
+    line-height: 29px; */
+    font-size: 17px;
+    line-height: 20px;
+    color: #00269d;
+}
+
+.view-exams {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.view-exams a {
+    font-family: TT Fors;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    color: #ffffff;
+}
+
+.view-exams button {
+    width: 260px;
+    height: 50px;
+    background: #1a43c3;
+    border-radius: 16px;
+    border: none;
+}
+
+.buy-exam {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buy-btn {
+    /* width: 127px;
+    height: 40px; */
+    width: 120px;
+    height: 40px;
+    background: #1a43c3;
+    border-radius: 16px;
+    border: none;
+   
+    transition: 0.5s ease;
+}
+.buy-btn a{
+    font-family: TT Fors;
+    font-style: normal;
+    font-weight: normal;
+    /* font-size: 19px; */
+    font-size: 18px;
+    line-height: 27px;
+    color: #ffffff;
+    /* margin-top: 20px; */
+    margin-top: 6px;
+}
+.buy-btn:hover {
+    background: #ffffff;
+    border: 1px solid #1a43c3;
+    color: #1a43c3;
+}
+.buy-btn a:hover {
+    color: #1a43c3;
+}
+
+/* Exam Section end */
+
+
+/* Footer section start */
+
+footer {
+    width: 100%;
+    background: rgba(237, 237, 237, 0.55);
+}
+
+.footer-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+.footer-items p {
+    text-align: center;
+    font-family: TT Fors;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #1a43c3;
+    margin: 0;
+}
+
+.footer-items a {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* .footer-items a img {
+  margin-left: 71px;
+} */
+
+
+/* Footer section end */
+
+
+/* Register page style */
+
+.register-body {
+    width: 100%;
+    height: 100vh;
+}
+
+.register-left {
+    background: #3D66C6;
+}
+
+.register-img {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.register-img img {
+    width: 70%;
+    height: 444px;
+}
+
+.register-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.page-logo {
+    padding: 35px 0 35px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.form-content {
+    width: 100%;
+    padding: 0 100px;
+}
+
+.form-content h1 {
+    font-family: TT Fors;
+    font-style: normal;
+    font-weight: normal;
+    /* font-size: 36px; */
+    font-size: 25px;
+    line-height: 52px;
+    color: #00269D;
+    text-align: center;
+    /* padding-bottom: 25px; */
+}
+
+.form-content form {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.regsiter-form-group {
+    margin-bottom: 16px;
+}
+
+.name-info,.email-info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+}
+
+
+
+.regsiter-form-group input {
+    width: 100%;
+    /* height: 45px; */
+    height: 38px;
+    background: #FBFBFF;
+    border: 1px solid #8399D2;
+    box-sizing: border-box;
+    border-radius: 8px;
+    outline: none;
+}
+
+.regsiter-form-group label {
+    font-family: TT Fors;
+    font-style: normal;
+    font-weight: normal;
+    /* font-size: 20px; */
+    font-size: 18px;
+    line-height: 39px;
+    color: #00269D;
+}
+
+.accept-rules {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.accept-rules input {
+    /* width: 22px;
+    height: 22px; */
+    width:18px;
+    height:18px;
+    margin-right: 8px;
+}
+
+.accept-rules label {
+    font-family: TT Fors;
+    font-style: normal;
+    font-weight: normal;
+    /* font-size: 20px; */
+    font-size:18px;
+    line-height: 31px;
+    color: #00269D;
+}
+
+.create-account,.edit-account {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 62px;
+}
+
+.create-account button {
+    width: 135px;
+    height: 45px;
+    /* padding: 8px 20px; */
+    background: #1A43C3;
+    border-radius: 16px;
+    border: none;
+    font-family: TT Fors;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 39px;
+    color: #FFFFFF;
+}
+.edit-account{
+margin-top: 30px;
+
+}
+
+.edit-account button{
+    width: 135px;
+    height: 45px;
+    /* padding: 8px 20px; */
+    background: #FA6323;
+    border-radius: 16px;
+    border: none;
+    font-family: TT Fors;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 39px;
+    color: #FFFFFF;
+}
+
+/* register page end */
+
+
+/* login page start */
+
+.login-content {
+    padding: 0 111px !important;
+    margin-top: 30px;
+}
+
+.forgot-password {
+    font-family: TT Fors;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    color: #36B9FF;
+    margin-bottom: 20px;
+}
+
+.link-register {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.link-register p {
+    font-family: TT Fors;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    color: #00269D;
+    margin: 0;
+}
+
+.link-register a {
+    font-family: TT Fors;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 34px;
+    color: #00269D;
+}
+
+.enter-btn {
+    width: 180px;
+    margin-top: 50px;
+}
+
+.enter-account {
+    margin-bottom: 100px;
+}
+
+
+/* login page end */
+
+
+/* After resgister page style start */
+
+.nav-bar ul {
+    display: flex;
+    gap: 54px;
+    align-items: center;
+    margin: 0;
+}
+
+.nav-bar ul li {
+    font-family: TT Fors;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 32px;
+    list-style: none;
+    color: #00269D;
+}
+
+.nav-bar ul li a {
+    color: #00269D;
+    transition: .3s ease;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+}
+
+.nav-bar ul li a::after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.nav-bar ul li a:hover::after {
+    border-bottom: 1px solid #00269D;
+    width: 100%;
+    left: 0;
+    color: var(--white);
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+    outline: none;
+}
+
+.dropdown-btn {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+}
+
+.dropdown-btn p {
+    margin: 0;
+    font-family: TT Fors;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 32px;
+    color: #00269D;
+    margin: 0 8px;
+}
+
+.my-dropdown-toggle::after {
+    content: none;
+}
+
+.show>.btn-secondary.dropdown-toggle {
+    color: #fff;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.show>.btn-secondary.dropdown-toggle:focus {
+    box-shadow: none;
+}
+
+.btn-secondary:focus {
+    color: #fff;
+    background-color: transparent;
+    border-color: transparent;
+    box-shadow: none;
+}
+
+.dropdown-menu {
+    width: 100%;
+}
+
+.dropdown-toggle::after {
+    content: none;
+}
+
+.btn-secondary:hover {
+    color: #fff;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+.index-menu {
+    float: right;
+    padding: 20px;
+}
+
+
+/* After register-page end */
+
+
+/* All exams page start */
+
+.all-exams {
+    padding-top: 100px;
+}
+
+.all-exams-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.all-exams-head h1 {
+    font-family: TT Fors;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 45px;
+    color: #00269D;
+}
+
+.all-exams-search {
+    width: 300px;
+    height: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.all-exams-search img {
+    width: 25px;
+    height: 25px;
+    margin: 0 15px;
+}
+
+.all-exams-search input {
+    border: none;
+    outline: none;
+}
+
+.all-exam-items {
+    margin-bottom: 40px;
+}
+
+
+/* All exams page end */
+
+
+/* Exam page style start */
+
+.exam-section {
+    padding: 50px;
+}
+
+.exam-section-head {
+    margin-bottom: 56px;
+}
+
+.exam-section-head h1 {
+    font-family: TT Fors;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 45px;
+    color: #00269D;
+    text-align: center;
+}
+
+.exam-section-bottom {
+    width: 100%;
+    height: auto;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    margin-bottom: 100px;
+}
+
+.exam-section-content {
+    padding: 19px 32px 40px 23px;
+    width: 100%;
+}
+
+.exam-top {
+    height: 68px;
+    width: 100%;
+    background: linear-gradient(121.19deg, rgba(233, 240, 249, 0.6776) -35.67%, rgba(237, 245, 255, 0.4235) 74.27%, rgba(196, 196, 196, 0) 196.29%, rgba(255, 255, 255, 0.4235) 196.29%);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+.exam-top h1 {
+    font-family: TT Fors;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 34px;
+    color: #00269D;
+}
+
+.exam-middle-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 36px;
+    width: 100%;
+}
+
+.exam-middle-item {
+    width: 100%;
+    height: auto;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+}
+
+.exam-middle-content {
+    padding: 20px;
+    height: 100%;
+    width: 100%;
+}
+
+.exam-middle-content p {
+    margin-bottom: 12px;
+    font-family: TT Fors;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 29px;
+    color: #00269D;
+}
+
+.exam-middle-content p span {
+    font-weight: 600;
+}
+
+.exam-date {
+    display: flex;
+    gap: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.item-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.item-3 p {
+    font-family: TT Fors;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 29px;
+    text-align: right;
+    color: #00269D;
+}
+
+.exam-middle {
+    margin-bottom: 51px;
+    width: 100%;
+}
+
+.exam-bottom-2 {
+    width: 100%;
+    height: auto;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    margin-bottom: 40px;
+}
+
+.exam-bottom-content {
+    padding: 15px 30px;
+}
+
+.exam-bottom-head h1 {
+    font-family: TT Fors;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 29px;
+    color: #00269D;
+    text-align: center;
+}
+
+.exam-bottom-content p {
+    font-family: TT Fors;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #00269D;
+}
+
+
+/* Exam page style end */
+
+
+/* Test page style start */
+
+.test {
+    padding-bottom: 200px;
+}
+
+.test-head h1 {
+    font-family: TT Fors;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 34px;
+    color: #00269D;
+    text-align: center;
+}
+
+.test-date {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin: 20px 0 36px 0;
+}
+
+.test-date p {
+    font-family: TT Fors;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 34px;
+    color: #00269D;
+    margin: 0;
+}
+
+.test-bottom-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.test-bottom-item {
+    width: 80%;
+    height: auto;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    margin-bottom: 48px;
+}
+
+.test-bottom-content {
+    padding: 27px 23px 47px 17px;
+}
+
+.test-question {
+    width: 100%;
+    /* height: 68px; */
+    padding: 12px 0;
+    height: auto;
+    background: linear-gradient(121.19deg, rgba(233, 240, 249, 0.6776) -35.67%, rgba(237, 245, 255, 0.4235) 74.27%, rgba(196, 196, 196, 0) 196.29%, rgba(255, 255, 255, 0.4235) 196.29%);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    margin-bottom: 31px;
+}
+
+.test-question p {
+    font-family: TT Fors;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 34px;
+    color: #00269D;
+    margin: 0;
+}
+
+.test-answer {
+    padding: 20px 40px;
+    width: 100%;
+    height: auto;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+}
+
+.test-answer-groups {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 33px;
+}
+
+.test-answer-group {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.test-answer-group label {
+    font-family: TT Fors;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #00269D;
+}
+
+.test-answer-group input {
+    width: 18px;
+    height: 18px;
+}
+
+.open-question {
+    width: 100%;
+    height: 151px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+}
+
+.open-question-answer p {
+    font-family: TT Fors;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #00269D;
+}
+
+.open-question-answer textarea {
+    width: 100%;
+    height: 100%;
+    resize: none;
+    border: none;
+    outline: none;
+}
+
+.voice-question {
+    margin: 40px 0 60px 0;
+}
+
+.voice-question audio {
+    width: 100%;
+}
+
+.video-question,.image-question{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 31px;
+}
+.video-question video, .image-question img{
+    width: 60%;
+    height: 70%;
+}
+
+/* Test page style end */
+
+
+/* Profile edit page style start */
+
+.profile-pic {
+    max-width: 200px;
+    max-height: 200px;
+    display: block;
+}
+
+.file-upload {
+    display: none;
+}
+
+.circle {
+    border-radius: 1000px !important;
+    /* border-radius: 40px !important; */
+    overflow: hidden;
+    /* width: 128px;
+    height: 128px; */
+    width: 120px;
+    height: 120px;
+    border: 8px solid rgba(255, 255, 255, 0.7);
+    /* position: absolute; */
+    top: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.p-image {
+    position: absolute;
+    top: 167px;
+    right: 30px;
+    color: #666666;
+    transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+    position: relative;
+    top: 46px;
+    left: -36px;
+}
+
+.p-image:hover {
+    transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+}
+
+.upload-button {
+    font-size: 1.2em;
+}
+
+.upload-button:hover {
+    transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+    color: #999;
+}
+
+.profile-edit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Profile edit page style end */

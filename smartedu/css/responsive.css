@@ -1,0 +1,623 @@
+/* Responsive register page */
+
+@media screen and (max-width:1250px) {
+    .login-content {
+        padding: 0 90px !important;
+    }
+    .header-intro p {
+        font-size: 25px;
+    }
+    .header-intro h1 {
+        font-size: 40px;
+    }
+    .intro-img img {
+        width: 80%;
+        height: 80%;
+    }
+}
+
+@media screen and (max-width:1150px) {
+    .header-intro h1 {
+        font-size: 40px;
+    }
+    .header-intro h1 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .header-intro p {
+        font-size: 22px;
+        line-height: 34px;
+    }
+    .header-intro button {
+        width: 170px;
+        height: 45px;
+        font-size: 20px;
+    }
+    .exam-item-bottom {
+        padding: 15px;
+    }
+    .exam-item-top h5 {
+        font-size: 23px;
+    }
+}
+
+@media screen and (max-width:1160px) {
+    .login-content {
+        padding: 0 75px !important;
+    }
+    .form-content h1 {
+        font-size: 32px;
+    }
+    .accept-rules label {
+        font-size: 18px;
+    }
+    .regsiter-form-group label {
+        font-size: 18px;
+    }
+    .regsiter-form-group input {
+        height: 40px;
+    }
+    .create-account button {
+        padding: 5px 20px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:1080px) {
+    .form-content {
+        padding: 0 70px;
+    }
+    .login-content {
+        padding: 0 50px !important;
+    }
+}
+
+@media screen and (max-width:1010px){
+    .item-3 p {
+        font-size: 19px;
+        line-height: 23px;
+    }
+    .exam-middle-content p {
+        font-size: 19px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .form-content h1 {
+        font-size: 28px;
+    }
+    .page-logo img {
+        width: 60%;
+    }
+    .login-content {
+        padding: 0 40px !important;
+    }
+    .link-register p {
+        font-size: 18px;
+    }
+    .link-register a {
+        font-size: 22px;
+    }
+    .enter-btn {
+        width: 150px;
+    }
+    .login-content {
+        margin-top: 50px;
+    }
+    .forgot-password {
+        font-size: 18px;
+    }
+    /* index page */
+    .intro-img img {
+        width: 70%;
+        height: 70%;
+        object-fit: cover;
+    }
+    .intro-img {
+        display: flex;
+        justify-content: center;
+    }
+    .header-intro {
+        text-align: center;
+    }
+    .header-bottom {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    /* test page responsive */
+    .test-question p {
+        font-size: 21px;
+    }
+    .test-answer-groups {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        row-gap: 33px;
+    }
+    /* exam page */
+    .exam-middle-items {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 36px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .form-content {
+        padding: 0 25px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .register-section {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .page-logo img {
+        width: 50%;
+    }
+    .header-intro p {
+        font-size: 20px;
+        line-height: 34px;
+    }
+    .header-intro p {
+        font-size: 20px;
+        line-height: 34px;
+    }
+    .view-exams button {
+        width: 240px;
+        height: 52px;
+        background: #1a43c3;
+        border-radius: 16px;
+        border: none;
+    }
+    /* For responsive menu */
+    .mobile-menu {
+        display: block;
+        z-index: 100;
+    }
+    .navbar {
+        display: none;
+    }
+    #overlay {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #fff;
+        overflow: hidden;
+        transition: 0.5s;
+    }
+    #overlay a {
+        font-size: 18px;
+        color: #5311B2;
+        margin: 10px 0;
+        display: block;
+        transition: 0.3s;
+    }
+    #overlay a:hover,
+    #overlay a:focus {
+        color: #4e46c4;
+    }
+    .overlay-content {
+        text-align: center;
+        padding-top: 15%;
+    }
+    #overlay .closeBtn {
+        position: absolute;
+        top: 37px;
+        right: 20px;
+        cursor: pointer;
+        font-size: 20px;
+        color: #4e46c4;
+    }
+    .contact-btn {
+        margin: 10px auto;
+        display: block;
+    }
+    .openBtn {
+        cursor: pointer;
+        color: #4e46c4;
+        font-size: 20px;
+        padding: 0 8px 0 0;
+    }
+    .contact-right form textarea::placeholder,
+    .contact-right form input::placeholder {
+        font-size: 11px;
+        font-family: "Poppins", sans-serif !important;
+    }
+    .send-messages {
+        width: 160px;
+        padding: 10px;
+        border: 2px solid #ffffff;
+        box-sizing: border-box;
+        border-radius: 4px;
+        background-color: transparent;
+        color: #fff;
+        font-size: 16px;
+        margin: 20px;
+    }
+    .item-control img {
+        height: 180px;
+        margin-bottom: 10px;
+    }
+    .control-line {
+        display: none;
+    }
+    .exam-head {
+        margin-bottom: 50px;
+    }
+    .exam-head h1 {
+        font-size: 30px;
+    }
+    .control-inner {
+        margin-bottom: 50px;
+    }
+    /* Test page */
+    .test-date p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .test-head h1 {
+        font-size: 22px;
+    }
+    .test-answer-groups {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 33px;
+    }
+    .exam-middle-items {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 36px;
+    }
+    .exam-top h1 {
+        font-size: 22px;
+    }
+   
+}
+
+@media screen and (max-width:500px) {
+    .form-content {
+        padding: 0 40px;
+    }
+    .regsiter-form-group label {
+        font-size: 16px;
+    }
+    .accept-rules label {
+        font-size: 16px;
+    }
+    .create-account button {
+        padding: 3px 20px;
+        font-size: 16px;
+    }
+    .form-content h1 {
+        font-size: 23px;
+    }
+    .regsiter-form-group input {
+        height: 38px;
+    }
+    .footer-items p {
+        font-size: 16px;
+    }
+    .header-intro h1 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .header-intro p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .header-intro button {
+        width: 150px;
+        height: 44px;
+        font-size: 18px;
+    }
+    .item-control img {
+        height: 130px;
+        margin-bottom: 10px;
+    }
+    .take-the-exam {
+        font-size: 21px;
+    }
+    /* test page */
+    .test-question {
+        padding-left: 15px;
+    }
+    .test-question p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .test-answer-group label {
+        font-size: 16px;
+    }
+    .test-answer-group input {
+        width: 17px;
+        height: 17px;
+    }
+    .test-date p {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .test-head h1 {
+        font-size: 21px;
+    }
+    .exam-top h1 {
+        font-size: 20px;
+    }
+    .exam-middle-content p {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .exam-bottom-content p {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width:460px) {
+    .exam-top h1 {
+        font-size: 18px;
+    }
+    .exam-section-head {
+        margin-bottom: 35px;
+    }
+    .exam-section-head h1 {
+        font-family: TT Fors;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+    }
+}
+@media screen and (max-width:400px) {
+    .form-content {
+        padding: 0 30px;
+    }
+    .page-logo img {
+        width: 79%;
+    }
+    .form-content h1 {
+        font-size: 22px;
+    }
+    .accept-rules label {
+        line-height: 24px;
+    }
+    .footer-items a img {
+        width: 75%;
+    }
+    .item-control img {
+        height: 130px;
+        margin-bottom: 10px;
+    }
+    .check-result {
+        font-size: 20px;
+    }
+    .reach-goals {
+        font-size: 21px;
+    }
+    .exam-head h1 {
+        font-size: 27px;
+    }
+    .exam-item-top h5 {
+        font-size: 21px;
+    }
+    .exam-item-top p {
+        font-size: 18px;
+    }
+    .exam-item-bottom p {
+        font-family: TT Fors;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        color: #00269d;
+    }
+    .exam-head h1 {
+        font-size: 27px !important;
+    }
+    .view-exams button {
+        width: 200px;
+        height: 43px;
+    }
+    .view-exams a {
+        font-size: 18px;
+    }
+    .item-control img {
+        height: 130px;
+        margin-bottom: 10px;
+    }
+    .test-question p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .test-question {
+        padding-left: 10px;
+    }
+    .test-answer-group label {
+        font-size: 15px;
+    }
+    .header-logo a img {
+        width: 80%;
+        height: 80%;
+    }
+    .test-date p {
+        font-size: 16px;
+        line-height: 23px;
+    }
+    .test-head h1 {
+        font-size: 19px;
+    }
+    .exam-middle-content p {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .exam-top h1 {
+        font-size: 16px;
+    }
+    .exam-bottom-content {
+        padding: 15px 15px;
+    }
+    .exam-section-content {
+        padding: 19px 20px 40px 20px;
+    }
+    .exam-bottom-head h1 {
+        font-size: 20px;
+    }
+}
+
+
+@media screen and (max-width:920px){
+    .index-dropdown{
+        display: block;
+    }
+    .mobile-dropdown{
+        display: block;
+    }
+}
+
+/* responsive menu */
+
+@media screen and (max-width:920px) {
+    .mobile-menu {
+        display: block;
+        z-index: 100;
+    }
+    .nav-bar,
+    .header-btns {
+        display: none;
+    }
+    #overlay {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #fff;
+        overflow: hidden;
+        transition: 0.5s;
+    }
+    #overlay a {
+        font-size: 18px;
+        color: #1A43C3;
+        margin: 10px 0;
+        display: block;
+        transition: 0.3s;
+    }
+    #overlay a:hover,
+    #overlay a:focus {
+        color: #4e46c4;
+    }
+    .overlay-content {
+        text-align: center;
+        padding-top: 15%;
+    }
+    #overlay .closeBtn {
+        position: absolute;
+        top: 28px;
+        right: 45px;
+        cursor: pointer;
+        font-size: 20px;
+        color: #1A43C3;
+    }
+    .contact-btn {
+        margin: 10px auto;
+        display: block;
+    }
+    .openBtn {
+        cursor: pointer;
+        color: #1A43C3;
+        font-size: 20px;
+        padding: 0 8px 0 0;
+    }
+    .contact-right form textarea::placeholder,
+    .contact-right form input::placeholder {
+        font-size: 11px;
+        font-family: "Poppins", sans-serif !important;
+    }
+    .send-messages {
+        width: 160px;
+        padding: 10px;
+        border: 2px solid #ffffff;
+        box-sizing: border-box;
+        border-radius: 4px;
+        background-color: transparent;
+        color: #fff;
+        font-size: 16px;
+        margin: 20px;
+    }
+    .overlay-content ul {
+        padding: 0;
+    }
+    .overlay-content ul li {
+        list-style: none;
+    }
+    .responsive-dropdown {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 1101px) {
+    .control-inner {
+        flex-wrap: wrap;
+    }
+    .control-text {
+        margin: 26px 0;
+    }
+    .control-line {
+        margin-bottom: 30px;
+    }
+    .control {
+        margin-top: 66px;
+        /* margin: 193px 0px 128px 0px; */
+    }
+}
+@media screen and (max-width:370px){
+    .exam-middle-content p {
+        font-size: 15px;
+        line-height: 17px;
+    }
+    .exam-section-content {
+        padding: 19px 10px 40px 10px;
+    }
+    .exam-top h1 {
+        font-size: 15px;
+    }
+    .exam-bottom-content p {
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:350px){
+    .exam-middle-content {
+        padding: 10px;
+        height: 100%;
+        width: 100%;
+    }
+    .exam-top h1 {
+        font-size: 15px;
+        text-align: center;
+        line-height: 25px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
